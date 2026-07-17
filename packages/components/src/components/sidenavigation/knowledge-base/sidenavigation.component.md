@@ -99,7 +99,7 @@ Composition guidance:
 | `variant="flexible"` (default) | Sets the layout and who controls expand/collapse. Use `flexible` (grabber always visible) or `flexible-on-hover` (grabber appears on hover/focus) when the user can toggle the sidebar; use `fixed-expanded` (icons + labels, locked open) or `fixed-collapsed` (icons only, locked closed) when the product fixes the mode; `hidden` renders nothing. |
 | `expanded` | Whether the sidebar shows labels. Toggleable for the `flexible*` variants (defaults to `true` on first render); forced for the `fixed-*` variants (see Limitations). |
 | `footer-text` | Text in the bottom brand area. When empty, the whole brand-logo container (including the `brand-logo` slot) is not rendered, so set it when you need the logo/footer. |
-| `grabber-btn-aria-label` | Accessible name for the expand/collapse grabber button. Always set it for the `flexible*` variants (see Labelling). |
+| `grabber-btn-aria-label` | Accessible name for the expand/collapse grabber button. Always set it for the `flexible*` variants (see Labeling). |
 | `hide-fixed-section-divider` (default `false`) | Hides the divider between the scrollable and fixed sections. Set `true` when the visual split is unwanted. |
 | `submenu-type` | How a parent navmenuitem presents its children. Set `"dropdown"` for an inline accordion in expanded mode; leave unset for flyout submenus via `mdc-menupopover`. Dropdowns auto-promote to flyouts when collapsed. |
 
@@ -140,7 +140,7 @@ For the `flexible-on-hover` variant, the grabber button is only made visible (vi
 - Pair each flyout submenu pattern with `is-active-parent-tooltip-text` on the `mdc-navmenuitem` so users can tell which submenu item is currently active.
 - For dropdown submenus, the parent navmenuitem receives `aria-expanded` automatically — do not override it manually.
 
-#### Labelling
+#### Labeling
 
 - Always set `grabber-btn-aria-label` for `flexible` and `flexible-on-hover` variants; the grabber button is unlabeled otherwise.
 - The host has `role="navigation"`; if multiple navigation landmarks exist on the page, add a host-level `aria-label` to distinguish them.

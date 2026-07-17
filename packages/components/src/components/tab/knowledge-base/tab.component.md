@@ -55,7 +55,7 @@ Minimal markup example:
 | `variant="pill"` (default) | Sets background and indicator styling and signals hierarchy. Use `pill` for the primary level of tabs, `line` for a secondary level nested inside a pill-tab view, and `glass` only for high-contrast surfaces where that treatment is called for. |
 | `size="32"` (default) | Row height: `32` (2rem) for standard density, `28` (1.75rem) for compact contexts. |
 | `tab-id` (required) | Unique identifier the parent `mdc-tablist` uses to track selection; duplicates make the list report an error. |
-| `text` | The visible label. When omitted, the tab shows only its icon and you must supply an `aria-label` (see Content guidance and Labelling). |
+| `text` | The visible label. When omitted, the tab shows only its icon and you must supply an `aria-label` (see Content guidance and Labeling). |
 | `icon-name` | Regular icon rendered in the prefix; the component renders the matching `-filled` icon and swaps to it when the tab is active. |
 | `active` (default `false`) | Toggles the visual active state and mirrors it to `aria-selected`. Selection is normally driven by the parent list, not set per tab. |
 | `disabled` | Removes the tab from the tab order and marks it `aria-disabled`; the parent list skips it during arrow-key navigation. |
@@ -96,7 +96,7 @@ The tab dispatches native `click` / `keydown` / `keyup` / `focus` events, plus `
 - The corresponding content panel element must have `role="tabpanel"` and `aria-labelledby` referencing the tab's `id`.
 - If a tab opens a popup menu, set `aria-haspopup` on it to either `menu` or `true`.
 
-#### Labelling
+#### Labeling
 
 - When `text` is omitted, provide an `aria-label` on the tab so screen reader users hear a meaningful name.
 

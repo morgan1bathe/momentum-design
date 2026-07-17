@@ -74,7 +74,7 @@ The component renders its container as a `<header>` landmark element, exposing t
 
 - Use only one `mdc-appheader` per page; multiple `banner` landmarks confuse assistive technologies.
 
-#### Labelling
+#### Labeling
 
 - Provide accessible names for any interactive controls slotted into the header (logos, buttons, search field) — the header itself does not label its contents.
 

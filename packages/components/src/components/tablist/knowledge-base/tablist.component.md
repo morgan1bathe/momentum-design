@@ -66,7 +66,7 @@ For each tab, set `aria-controls="<panel-id>"` and on each panel set `role="tabp
 | Option | Intent |
 |---|---|
 | `active-tab-id` | ID of the selected tab; reflects the active tab and updates as the user switches. When unset, the first enabled tab is selected by default. Set it to preselect or control the active tab. |
-| `data-aria-label` | Accessible name for the tablist container, surfaced as the inner `tablist` element's `aria-label`. Set it when there is no visible heading above the tabs (see Labelling). |
+| `data-aria-label` | Accessible name for the tablist container, surfaced as the inner `tablist` element's `aria-label`. Set it when there is no visible heading above the tabs (see Labeling). |
 
 The active tab is tracked by `active-tab-id`; if none is set, the first non-disabled tab activates after the first render. The default slot accepts `mdc-tab` elements (disabled tabs are skipped during navigation and initial selection). The list dispatches `change` (a bubbling `CustomEvent` with the new tab id on `event.detail.tabId`) when the user switches tabs — listen to this rather than each tab's own event.
 
@@ -108,7 +108,7 @@ The active tab is tracked by `active-tab-id`; if none is set, the first non-disa
 - Each panel element must have `role="tabpanel"` and `aria-labelledby` referencing its tab.
 - If a tab opens a popup menu, set `aria-haspopup` on that tab to `menu` or `true`.
 
-#### Labelling
+#### Labeling
 
 - Provide `data-aria-label` when the tablist does not have a visible heading directly above it.
 

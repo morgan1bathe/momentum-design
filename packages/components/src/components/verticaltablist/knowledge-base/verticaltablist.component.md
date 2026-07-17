@@ -55,7 +55,7 @@ Minimal markup example. Each `mdc-tab` must point at its associated panel via `a
 | Option | Intent |
 |---|---|
 | `active-tab-id` | ID of the selected tab; reflects the active tab and updates as the user switches. When unset, the first enabled tab is selected by default. Set it to preselect or control the active tab. |
-| `data-aria-label` | Accessible name for the tab group, surfaced as the tablist's `aria-label`. Always set it so screen-reader users understand the group's purpose (see Labelling). |
+| `data-aria-label` | Accessible name for the tab group, surfaced as the tablist's `aria-label`. Always set it so screen-reader users understand the group's purpose (see Labeling). |
 | `initial-focus="0"` (default) | Index of the tab focused when the component first renders; out-of-range values clamp to a valid index. Set it when the most useful starting tab is not the first. |
 | `loop="true"` (default) | Whether Up/Down arrow navigation wraps at the ends. Keep `true` for continuous cycling; set `false` when the ends should stop. |
 
@@ -96,7 +96,7 @@ The `change` event (`onChange`) fires when the active tab changes, with the new 
 - Render a separate element with `role="tabpanel"` for each tab and toggle its visibility based on the selected tab.
 - Reflect the active tab's selection in the application state so the rendered panel matches the user's choice.
 
-#### Labelling
+#### Labeling
 
 - Always set `data-aria-label` so the tablist has an accessible name; otherwise screen readers cannot describe the purpose of the tab group.
 - Each tab needs an `aria-controls` attribute pointing at the id of its panel; each panel needs `aria-labelledby` pointing at its tab.
