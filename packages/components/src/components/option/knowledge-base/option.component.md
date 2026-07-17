@@ -91,7 +91,7 @@ If the option label can be long enough to truncate, connect an `mdc-tooltip` via
 - Place `mdc-option` inside an `mdc-selectlistbox` (within `mdc-select`) or another listbox-style container that manages roving tabindex, the listbox role, and selection.
 - Provide a `value` so the surrounding form-associated `mdc-select` can submit the selected value.
 
-#### Labelling
+#### Labeling
 
 - Provide an accessible name via `label`, slotted text in `leading-text-primary-label`, or `aria-label`.
 - When several options share the same visible label, set `aria-label` (or include disambiguating `secondary-label` text) so screen readers can distinguish them.
@@ -100,7 +100,7 @@ If the option label can be long enough to truncate, connect an `mdc-tooltip` via
 
 | Component | Relationship |
 |---|---|
-| `mdc-optgroup` | Labelled grouping of options within a listbox. |
+| `mdc-optgroup` | Labeled grouping of options within a listbox. |
 | `mdc-selectlistbox` | Required `role="listbox"` wrapper for options inside select/combobox. |
 | `mdc-listbox` | Standalone listbox that contains options directly. |
 | `mdc-select` / `mdc-combobox` | Dropdown controls whose choices are `mdc-option` elements. |

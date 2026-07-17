@@ -102,7 +102,7 @@ Whenever the selection changes — by click, keyboard, or programmatic `value` u
 - Wire the `change` event to your own state and re-render — the listbox tracks selection internally but the consumer typically owns the canonical value.
 - When `multiple` is `true`, communicate the multi-select affordance in the surrounding UI (header text, helper text) so users know to pick more than one option.
 
-#### Labelling
+#### Labeling
 
 - Give the listbox an accessible name with `aria-label`, or `aria-labelledby` pointing at a visible heading, so screen readers announce what the list is for.
 
@@ -114,5 +114,5 @@ Whenever the selection changes — by click, keyboard, or programmatic `value` u
 | `mdc-combobox` | Editable, filterable dropdown variant of the select surface. |
 | `mdc-selectlistbox` | The `role="listbox"` wrapper used inside select/combobox, not standalone. |
 | `mdc-option` | The selectable entries inside the listbox. |
-| `mdc-optgroup` | Labelled grouping of options within the listbox. |
+| `mdc-optgroup` | Labeled grouping of options within the listbox. |
 | `mdc-menupopover` | Menu of commands rather than a selection list. |

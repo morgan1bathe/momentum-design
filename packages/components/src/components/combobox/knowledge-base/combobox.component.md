@@ -159,7 +159,7 @@ The `label` (or `data-aria-label`) provides the accessible name. `help-text` is 
 - When filtering is driven externally (API, server), set `filter="none"` and update slotted options as data arrives — the combobox will not filter on its own.
 - When using `control-type="controlled"`, listen to `input` and `change` and drive the `value` attribute from the parent; the combobox will not mutate its own value.
 
-#### Labelling
+#### Labeling
 
 - Provide a `label` (or `data-aria-label`) — `role="combobox"` requires an accessible name.
 - Use `help-text` with `help-text-type="error"` for validation feedback; the icon and `aria-describedby` association are wired automatically.
@@ -172,6 +172,6 @@ The `label` (or `data-aria-label`) provides the accessible name. `help-text` is 
 | `mdc-select` | Same dropdown surface without the editable input — pick from a fixed list, no typing. |
 | `mdc-selectlistbox` | Required wrapper carrying `role="listbox"` around the slotted options. |
 | `mdc-option` | A single selectable value inside the listbox. |
-| `mdc-optgroup` | Labelled grouping of options within the listbox. |
+| `mdc-optgroup` | Labeled grouping of options within the listbox. |
 | `mdc-searchfield` | For searching content rather than choosing one value from a known set. |
 | `mdc-controltypeprovider` | Wraps the combobox to enable `control-type="controlled"` for externally driven values. |

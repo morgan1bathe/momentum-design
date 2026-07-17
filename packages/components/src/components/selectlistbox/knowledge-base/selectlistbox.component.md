@@ -69,9 +69,9 @@ On `connectedCallback` the host sets `role="listbox"` on itself. The parent `mdc
 - Always use `mdc-selectlistbox` as the direct child of `mdc-select` or `mdc-combobox`.
 - Place every `mdc-option` (and `mdc-optgroup`) inside this wrapper.
 
-#### Labelling
+#### Labeling
 
-- The parent (`mdc-select` / `mdc-combobox`) supplies the accessible name; no labelling work is required on `mdc-selectlistbox` itself.
+- The parent (`mdc-select` / `mdc-combobox`) supplies the accessible name; no labeling work is required on `mdc-selectlistbox` itself.
 
 ## Related components
 
@@ -81,4 +81,4 @@ On `connectedCallback` the host sets `role="listbox"` on itself. The parent `mdc
 | `mdc-combobox` | Parent that renders this wrapper for its filterable dropdown. |
 | `mdc-listbox` | Standalone, always-visible listbox for use outside a select or combobox. |
 | `mdc-option` | The selectable entries this wrapper contains. |
-| `mdc-optgroup` | Labelled grouping of options placed inside this wrapper. |
+| `mdc-optgroup` | Labeled grouping of options placed inside this wrapper. |

@@ -15,7 +15,7 @@ The component is form-associated and participates in native form submission, val
 
 - Use `mdc-select` when the user must pick a single value from a fixed list and typing to filter is not needed.
 - Use `mdc-select` inside a form when you need native submission, validation, and reset for the selected value.
-- Use `mdc-select` when options fall into labelled groups (`mdc-optgroup`), optionally separated by an `mdc-divider`.
+- Use `mdc-select` when options fall into labeled groups (`mdc-optgroup`), optionally separated by an `mdc-divider`.
 
 ### When not to use
 
@@ -140,7 +140,7 @@ Disabled states: when `disabled`, `soft-disabled`, or `readonly` becomes true wh
 - Place per-option `mdc-tooltip` siblings outside `mdc-select` and connect them via `triggerid` — tooltips slotted inside the listbox break announcement and focus order.
 - For required selects, pair `required` with a meaningful `validation-message`.
 
-#### Labelling
+#### Labeling
 
 - Provide a `label` whenever possible — `role="combobox"` requires an accessible name.
 - When no visible label is shown, set `data-aria-label` on the host.
@@ -153,6 +153,6 @@ Disabled states: when `disabled`, `soft-disabled`, or `readonly` becomes true wh
 | `mdc-combobox` | Same dropdown surface with an editable input that filters the list as the user types. |
 | `mdc-selectlistbox` | Required wrapper that carries `role="listbox"` around the slotted options. |
 | `mdc-option` | A single selectable value inside the listbox. |
-| `mdc-optgroup` | Labelled grouping of options within the listbox. |
+| `mdc-optgroup` | Labeled grouping of options within the listbox. |
 | `mdc-listbox` | Standalone, always-visible option list with no popover and optional multi-select. |
 | `mdc-radiogroup` | Better for a few mutually exclusive options that should all stay visible. |
