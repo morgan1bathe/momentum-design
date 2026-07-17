@@ -107,7 +107,7 @@ The imperative `scrollToIndex(index, options?)` method scrolls to a given item u
 - For dynamic item sizes, enable `observe-size-changes` so size measurements stay accurate after content updates.
 - Place an `mdc-listheader` in the `list-header` slot when the list needs a header that scrolls with the content.
 
-#### Labelling
+#### Labeling
 
 - Set `data-aria-label` so the list has an accessible name. Without it, assistive technologies will announce an unnamed list role.
 

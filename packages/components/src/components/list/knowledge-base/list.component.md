@@ -91,7 +91,7 @@ When a listitem is added or removed (via the element-store life-cycle hooks), th
 - Use `mdc-listheader` (in the `list-header` slot) for any visible heading that introduces the list, instead of rendering plain text above it.
 - Match `orientation` to the visual flow of the list; mismatched orientation makes arrow-key navigation feel broken.
 
-#### Labelling
+#### Labeling
 
 - Give the list an accessible name: use an `mdc-listheader` in the `list-header` slot for a visible heading, or set `aria-label` on the `mdc-list` when there is no visible header.
 

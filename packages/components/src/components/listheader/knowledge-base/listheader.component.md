@@ -90,7 +90,7 @@ Slotted actionable elements (links, buttons) keep their own accessibility semant
 
 ### Implementation requirements
 
-#### Labelling
+#### Labeling
 
 - Use the `header-text` attribute (rather than slotting plain text) so the header picks up the right typography and `aria-hidden` treatment.
 - For trailing actions, slot a control with its own accessible name (e.g. `<mdc-link>See all</mdc-link>`) so the action is announced when focused.
@@ -102,5 +102,5 @@ Slotted actionable elements (links, buttons) keep their own accessibility semant
 | `mdc-list` | Container whose `list-header` slot holds this header. |
 | `mdc-listitem` | Row for the list body, distinct from this header. |
 | `mdc-divider` | Separates sections when a list has more than one headed group. |
-| `mdc-menusection` | Equivalent labelled grouping inside menus. |
+| `mdc-menusection` | Equivalent labeled grouping inside menus. |
 | `mdc-virtualizedlist` | Also accepts a header in its `list-header` slot. |
