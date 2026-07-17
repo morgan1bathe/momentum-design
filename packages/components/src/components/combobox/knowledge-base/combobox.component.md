@@ -11,10 +11,6 @@ The combobox is a text-based dropdown control that lets the user type to filter 
 
 The component is form-associated and participates in native form submission, validation, and reset.
 
-It is designed to be used with `mdc-option` (individual options) and `mdc-optgroup` (grouped options) placed inside an `mdc-selectlistbox` slotted child — `mdc-selectlistbox` owns the `role="listbox"` and is required for correct screen-reader behavior.
-
-When the consumer needs to drive the value externally (e.g. server-side filtering), set `control-type="controlled"` on a wrapping `mdc-controltypeprovider` (or use `filter="none"`): the combobox will emit `input` and `change` events but will not mutate its own `value` — the parent component is expected to update `value` to reflect the selection.
-
 ### When to use
 
 - Use `mdc-combobox` when the user must pick a single value from a long list and typing to filter is faster than scanning.
@@ -65,6 +61,10 @@ Filtering modes:
 - Default (`filter="match-starts-with"`) — options whose label starts with the typed text are shown.
 - Custom function (`filter={(option, inputValue) => boolean}`) — full control over the match logic, useful for multi-token or fuzzy matching.
 - External (`filter="none"`) — the combobox does not filter; update the slotted options as data arrives (e.g. from an API).
+
+Controlled value:
+
+- When the consumer needs to drive the value externally (e.g. server-side filtering), set `control-type="controlled"` on a wrapping `mdc-controltypeprovider` (or use `filter="none"`). The combobox then emits `input` and `change` but does not mutate its own `value` — the parent is expected to update `value` to reflect the selection.
 
 ### Content guidance
 
