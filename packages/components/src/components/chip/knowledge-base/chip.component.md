@@ -7,7 +7,7 @@ component: chip
 
 ## Overview
 
-The chip is a compact, interactive surface that renders an optional leading icon and a short label. It behaves like a button — activating on click or `Enter`/`Space`, with focus, hover, and disabled states — and represents a tag, attribute, or quick action in a limited space.
+The chip is a compact, interactive surface that renders an optional leading icon and a short label. It behaves like a button and represents a tag, attribute, or quick action in a limited space.
 
 ### When to use
 
