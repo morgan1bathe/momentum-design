@@ -7,7 +7,7 @@ component: toggletip
 
 ## Overview
 
-`mdc-toggletip` is a click-triggered overlay used to surface contextual help text or interactive content (links, buttons) next to a target element. It stays visible until the user dismisses it via the close button, an outside click, or the Escape key, and announces its content to screen readers when it appears.
+`mdc-toggletip` is a click-triggered overlay used to surface contextual help text or interactive content (links, buttons) next to a target element. Unlike a hover tooltip, it persists after it opens, so it can hold content that users need to read at their own pace or interact with directly.
 
 ### When to use
 
