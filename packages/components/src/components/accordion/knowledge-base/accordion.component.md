@@ -100,7 +100,7 @@ The header text is exposed as a heading and the toggle as a button linked to the
 - Set `data-aria-level` to match the surrounding heading hierarchy (for example `data-aria-level="2"` when the accordion sits directly under an H1 section). An incorrect level misrepresents the document outline to screen-reader users.
 - Ensure every interactive control you slot into the header carries its own accessible name.
 
-#### Labelling
+#### Labeling
 
 - **Always** provide both `open-button-aria-label` and `close-button-aria-label`, and write them as clear state actions ("Expand section" / "Collapse section"). The toggle is icon-only, so without them screen-reader users cannot tell what the button does. The visible `header-text` names the heading, not the toggle.
 

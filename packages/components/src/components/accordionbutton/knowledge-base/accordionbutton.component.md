@@ -48,7 +48,7 @@ The default slot holds the body; `header-text` sets the title:
 - Keep phrasing parallel across sibling sections so the set reads as one group.
 - Body copy can run to multiple paragraphs, lists, or nested components; lead with the information people most likely came for, and cut filler.
 
-The `header-text` also serves as the component's accessible name; the naming mechanism is covered in Accessibility → Labelling.
+The `header-text` also serves as the component's accessible name; the naming mechanism is covered in Accessibility → Labeling.
 
 ### Property/Attribute details
 
@@ -101,7 +101,7 @@ The header is exposed as a heading, the toggle as a button, and both are linked 
 
 - Set `data-aria-level` to match the surrounding heading hierarchy (for example `data-aria-level="2"` when the accordion sits directly under an H1 section). An incorrect level misrepresents the document outline to screen-reader users.
 
-#### Labelling
+#### Labeling
 
 - The visible `header-text` is the accessible name of both the heading and the toggle (via `aria-labelledby`); provide a meaningful `header-text` and no additional label is needed. `mdc-accordionbutton` has no icon-only mode, so it never requires an `aria-label`.
 
