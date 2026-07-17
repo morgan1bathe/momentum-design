@@ -7,7 +7,7 @@ component: accordion
 
 ## Overview
 
-`mdc-accordion` stacks a header above a collapsible panel and expands or collapses it through one dedicated toggle button, leaving the rest of the header free for other controls. Use it when a section needs its own chips, badges, or icon buttons next to the title without those controls fighting the expand/collapse action.
+`mdc-accordion` stacks a header above a collapsible panel and expands or collapses it through one dedicated toggle button, leaving the rest of the header free for other controls. It exists for sections that need their own chips, badges, or icon buttons next to the title without those controls fighting the expand/collapse action.
 
 ### When to use
 
