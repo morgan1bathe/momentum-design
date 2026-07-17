@@ -117,7 +117,7 @@ The `card-title` (or `title` slot) provides the accessible name. The visual sele
 - Keep every slotted child presentational. If you need actionable content alongside the option, switch to `mdc-card` and use `mdc-checkbox` for the selection.
 - Use `disabled` (not `aria-hidden` or visual cues alone) when an option must not be selectable, so the state is exposed to assistive technology.
 
-#### Labelling
+#### Labeling
 
 - Provide a meaningful `card-title` (or `title` slot) — it is the default accessible name of the checkbox.
 - When the title alone is ambiguous (e.g. icon-driven cards, repeated titles disambiguated by context), set `aria-label` (or `aria-labelledby`) on the host so the announcement matches the option.
