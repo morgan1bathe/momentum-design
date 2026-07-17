@@ -94,7 +94,7 @@ The anchor's accessible name comes from the slotted text by default; `data-aria-
 
 ### Implementation requirements
 
-#### Labelling
+#### Labeling
 
 - When the slotted content is non-textual (an icon, an image), always provide `data-aria-label` — otherwise the link has no accessible name.
 - For `target="_blank"` links, supply a `data-aria-label` (for example `"Open example.com (opens in new tab)"`) when the new-tab behavior must be conveyed to screen readers.
