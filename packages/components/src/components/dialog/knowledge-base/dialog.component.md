@@ -98,7 +98,7 @@ When multiple dialogs are open at once, the component uses an internal depth man
 | `role="dialog"` (default) | Override to `alertdialog` for urgent confirmations that need the assertive role. |
 | `focus-trap` (default `true`) | Keeps focus inside the dialog while open; leave it on — a modal dialog should trap focus except in rare cases. |
 | `hide-backdrop` | Removes the backdrop; leave it off so the dialog reads as modal and blocks the page. |
-| `aria-label` / `aria-labelledby` / `aria-describedby` / `aria-description` | Explicit labelling/description, wired automatically from `header-text`/`description-text`/`triggerID` when omitted. Use `aria-labelledby` when the title lives in the body slot. |
+| `aria-label` / `aria-labelledby` / `aria-describedby` / `aria-description` | Explicit labeling/description, wired automatically from `header-text`/`description-text`/`triggerID` when omitted. Use `aria-labelledby` when the title lives in the body slot. |
 | `disable-aria-haspopup` | Suppresses `aria-haspopup="dialog"` on the trigger; set it only when the trigger already exposes a different `aria-haspopup`. |
 | `stack-group-name` / `z-index` | Coordinate stacking when multiple dialogs can open at once; a depth manager computes `z-index` when unset. |
 
@@ -131,7 +131,7 @@ The dialog renders with `role="dialog"` and `aria-modal="true"`. While visible:
 | Host (dialog)  | `role`             | `dialog` (default; override via `role`)                                     |
 | Host (dialog)  | `aria-modal`       | `true`                                                                      |
 | Host (dialog)  | `aria-label`       | set from `header-text` when no `aria-label`/`aria-labelledby` provided      |
-| Host (dialog)  | `aria-labelledby`  | set from `triggerID` when no header text and no explicit labelling provided |
+| Host (dialog)  | `aria-labelledby`  | set from `triggerID` when no header text and no explicit labeling provided |
 | Host (dialog)  | `aria-description` | set from `description-text` when no `aria-describedby` provided             |
 | Host (dialog)  | `aria-describedby` | set from `triggerID` when no description text provided                      |
 | Close button   | `aria-label`       | mirrors `close-button-aria-label`                                           |
@@ -147,7 +147,7 @@ The dialog renders with `role="dialog"` and `aria-modal="true"`. While visible:
 - When multiple dialogs may open at once, set `stack-group-name` to coordinate stacking and avoid duplicate top-most dialogs.
 - When the dialog hosts a form, place the `<form>` outside the dialog (or inside the body slot) and connect submit buttons via the `form` attribute.
 
-#### Labelling
+#### Labeling
 
 - Provide `header-text` whenever possible — it doubles as the accessible name.
 - If the title is rendered inside the body slot instead of `header-text`, set `aria-labelledby` pointing at that element.
