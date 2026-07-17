@@ -51,7 +51,6 @@ Listen for `click`, `keydown`, `focus`, and `blur` to react to user interaction.
 
 ### Content guidance
 
-- When the slotted content is non-textual (an icon, an image), always provide `data-aria-label` so the link has an accessible name.
 - The component intentionally has no `size` — let the parent context's typography apply, or wrap with `mdc-link` if a defined size is needed.
 
 ### Property/Attribute details

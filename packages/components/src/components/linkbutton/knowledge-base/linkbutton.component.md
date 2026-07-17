@@ -7,9 +7,7 @@ component: linkbutton
 
 ## Overview
 
-The linkbutton renders as a link visually but behaves as a button: activating it fires a `click` event rather than navigating to a URL. Use it for in-page actions (open a panel, copy a value, trigger a workflow) that should sit in body text or alongside other links without standing out as a button.
-
-The slotted children supply the label; an optional trailing icon can be added via `icon-name`. Three text sizes are supported, plus inline / standalone display and an inverted color scheme for dark backgrounds.
+`mdc-linkbutton` provides a control that looks like a link but performs an in-page action rather than navigating. It exists for actions that belong in running prose or alongside other links — opening a panel, copying a value, triggering a workflow — where a full button would feel too heavy for the surrounding text.
 
 ### When to use
 
