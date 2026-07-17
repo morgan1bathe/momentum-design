@@ -7,7 +7,7 @@ component: listbox
 
 ## Overview
 
-The listbox presents a list of `mdc-option` elements (optionally grouped by `mdc-optgroup`) and lets the user pick one option (default) or multiple options (`multiple`). Clicking an option, or pressing `Enter` / `Space` while it is focused, toggles selection in multi mode and replaces the selection in single mode.
+The listbox presents a list of `mdc-option` elements (optionally grouped by `mdc-optgroup`) and lets the user pick one option (default) or multiple options (`multiple`).
 
 The listbox emits a `change` event whenever the selection changes, with `value` (the most recently selected option's `value`) and `selectedValues` (all currently selected `value`s) in the event detail. It is not yet a form control — wire its `value` into a form manually if form submission is needed.
 

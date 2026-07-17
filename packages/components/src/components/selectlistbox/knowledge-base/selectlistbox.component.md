@@ -48,7 +48,7 @@ Minimal markup example:
 
 ### Notes
 
-`mdc-selectlistbox` renders into the light DOM (it does not create its own shadow root) so the slotted `mdc-option` children stay accessible to the parent `mdc-select` / `mdc-combobox` for keyboard navigation, selection, and form handling. Once the platform supports `ElementInternals.ariaOwnsElements`, this wrapper component is expected to be removed in favour of `aria-owns` wiring between the parent and the options.
+`mdc-selectlistbox` renders into the light DOM (it does not create its own shadow root) so the slotted `mdc-option` children stay accessible to the parent `mdc-select` / `mdc-combobox` for keyboard navigation, selection, and form handling. Once the platform supports `ElementInternals.ariaOwnsElements`, this wrapper component is expected to be removed in favor of `aria-owns` wiring between the parent and the options.
 
 ## Accessibility
 
