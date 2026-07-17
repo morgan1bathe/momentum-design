@@ -7,9 +7,7 @@ component: link
 
 ## Overview
 
-The link renders a navigational hyperlink. The slotted children supply the link text; setting `icon-name` adds a trailing icon (commonly a pop-out for external destinations or a download affordance). Three sizes are available (`small`, `midsize`, `large`), and the link supports inline and standalone display plus an inverted color scheme for dark surfaces.
-
-Like a native `<a>`, it supports `href`, `target`, `rel`, `download`, `ping`, `hreflang`, `type`, and `referrerpolicy`. When `disabled`, navigation is suppressed and the link leaves the tab order.
+`mdc-link` provides a navigational hyperlink that reads as link text within surrounding content. It exists for taking users to another page, view, or resource — including external destinations and downloads — with inline or standalone styling to fit the context.
 
 ### When to use
 
