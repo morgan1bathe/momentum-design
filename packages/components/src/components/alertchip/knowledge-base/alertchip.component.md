@@ -57,7 +57,7 @@ Minimal markup example:
 - **No disabled state** — alert chips have only rest, hover, pressed, and focused states; there is no disabled state. Remove or replace the chip instead of disabling it.
 - **Long labels don't wrap** — labels beyond 20 characters make the chip excessively wide and the text does not wrap. Trim the label rather than relying on truncation.
 - **Color isn't a status signal** — the variant color and icon do not convey the state to color-blind users, high-contrast modes, or screen readers. Carry the status in the `label`.
-- **Icon-only drops the name** — removing the label for visual density leaves no accessible name unless an `aria-label` is supplied (see Labelling).
+- **Icon-only drops the name** — removing the label for visual density leaves no accessible name unless an `aria-label` is supplied (see Labeling).
 
 ### Notes
 
@@ -85,7 +85,7 @@ The alert chip behaves as a button: the host exposes `role="button"`, participat
 - The variant color and icon are visual only and are not announced. If the alert state must be conveyed to assistive technologies, include it in the `label` text (for example `label="Error: connection lost"`) or in surrounding context.
 - If a supportive tooltip is attached, make sure its content is available to assistive technologies and does not hide information required to understand the status.
 
-#### Labelling
+#### Labeling
 
 - Always set a meaningful `label`. The label is the accessible name announced by screen readers.
 - When the chip is icon-only (no label) for visual reasons, provide an `aria-label` so screen-reader users still receive a name for the button.
