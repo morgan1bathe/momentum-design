@@ -64,7 +64,7 @@ The component renders the slotted label content inside its light DOM but does no
 
 ### Implementation requirements
 
-#### Labelling
+#### Labeling
 
 - The static checkbox has no accessible name or state of its own. When the checked or indeterminate state carries meaning, convey it through the interactive parent's accessible name or adjacent text, or use `mdc-checkbox`.
 
@@ -77,6 +77,6 @@ Because the component does not expose checkbox semantics, screen-reader users wi
 | Component | Relationship |
 |---|---|
 | `mdc-checkbox` | Interactive, form-associated checkbox. |
-| `mdc-formfieldgroup` | Labelled group for the interactive `mdc-checkbox` controls this decorative variant mirrors. |
+| `mdc-formfieldgroup` | Labeled group for the interactive `mdc-checkbox` controls this decorative variant mirrors. |
 | `mdc-staticradio` | Decorative radio counterpart. |
 | `mdc-statictoggle` | Decorative toggle counterpart. |

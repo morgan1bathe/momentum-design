@@ -62,7 +62,7 @@ The component renders only the visual switch and does not expose any toggle sema
 
 ### Implementation requirements
 
-#### Labelling
+#### Labeling
 
 - The static toggle has no accessible name or state of its own. When the on/off state carries meaning, convey it through the interactive parent's accessible name or adjacent text, or use `mdc-toggle`.
 
@@ -75,6 +75,6 @@ Because the component does not expose toggle semantics, screen-reader users will
 | Component | Relationship |
 |---|---|
 | `mdc-toggle` | Interactive, form-associated switch. |
-| `mdc-formfieldgroup` | Labelled group for the interactive `mdc-toggle` controls this decorative variant mirrors. |
+| `mdc-formfieldgroup` | Labeled group for the interactive `mdc-toggle` controls this decorative variant mirrors. |
 | `mdc-staticcheckbox` | Decorative checkbox counterpart. |
 | `mdc-staticradio` | Decorative radio counterpart. |

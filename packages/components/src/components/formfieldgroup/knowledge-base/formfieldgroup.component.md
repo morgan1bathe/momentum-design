@@ -1,6 +1,6 @@
 ---
 title: Formfieldgroup
-summary: Usage, guidelines, and accessibility for the mdc-formfieldgroup component — a labelled container grouping checkbox/toggle form fields with shared header, helper text, and group semantics.
+summary: Usage, guidelines, and accessibility for the mdc-formfieldgroup component — a labeled container grouping checkbox/toggle form fields with shared header, helper text, and group semantics.
 tier: 3
 component: formfieldgroup
 ---
@@ -19,7 +19,7 @@ The group is announced to screen readers as a single semantic unit via `role="gr
 ### When not to use
 
 - Do not use `mdc-formfieldgroup` for radio buttons. Use `mdc-radiogroup` instead — radios need the `radiogroup` role and arrow-key navigation this group does not provide.
-- Do not use `mdc-formfieldgroup` for a single labelled field. Use `mdc-formfieldwrapper` instead.
+- Do not use `mdc-formfieldgroup` for a single labeled field. Use `mdc-formfieldwrapper` instead.
 - Do not use `mdc-formfieldgroup` for a long list of options that should not all be visible at once. Use `mdc-select` with multi-select instead.
 
 ## Guidelines
@@ -93,7 +93,7 @@ Children are rendered in the default slot in DOM order and announced to screen r
 - Validate the children's combined state from the consumer when `required` is `true` — the group does not enforce that at least one child is selected.
 - A checkbox group has no parent checkbox; place any indeterminate "select all" rollup in a separate `mdc-checkbox` outside the group.
 
-#### Labelling
+#### Labeling
 
 - Always provide a `label` (or `data-aria-label`) — without it the group has no accessible name.
 - Use `help-text` for constraints that apply to the whole group; per-field error messages belong on each child's own `help-text`.
@@ -102,7 +102,7 @@ Children are rendered in the default slot in DOM order and announced to screen r
 
 | Component | Relationship |
 |---|---|
-| `mdc-checkbox` | Grouped here to form a labelled checkbox group. |
-| `mdc-toggle` | Grouped here to form a labelled toggle group. |
+| `mdc-checkbox` | Grouped here to form a labeled checkbox group. |
+| `mdc-toggle` | Grouped here to form a labeled toggle group. |
 | `mdc-radiogroup` | Equivalent grouping for radio buttons, with the `radiogroup` role and arrow-key navigation. |
-| `mdc-formfieldwrapper` | Single labelled field instead of a group; the base component this extends. |
+| `mdc-formfieldwrapper` | Single labeled field instead of a group; the base component this extends. |

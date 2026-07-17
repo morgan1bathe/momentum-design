@@ -64,7 +64,7 @@ The component renders the slotted label content inside its light DOM but does no
 
 ### Implementation requirements
 
-#### Labelling
+#### Labeling
 
 - The static radio has no accessible name or state of its own. When the checked state carries meaning, convey it through the interactive parent's accessible name or adjacent text, or use `mdc-radio` inside `mdc-radiogroup`.
 

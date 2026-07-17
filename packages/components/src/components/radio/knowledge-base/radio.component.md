@@ -108,7 +108,7 @@ A custom indicator slotted into `indicator` is supported: when content is slotte
 - To show a validation message for an invalid group, wrap the radios in `mdc-radiogroup` and set its `help-text` — the radio itself does not render a visible validation message.
 - Pre-select a sensible default radio in a group when a common or recommended choice exists — it speeds up the task and avoids empty-submission errors. Skip the default only when there is no obvious answer (for example table-row selections).
 
-#### Labelling
+#### Labeling
 
 - Provide a `label` on every radio describing the option. When no visible label is present, set `data-aria-label`.
 - Provide a label on the surrounding `mdc-radiogroup` describing what the group represents.
@@ -117,7 +117,7 @@ A custom indicator slotted into `indicator` is supported: when content is slotte
 
 | Component | Relationship |
 |---|---|
-| `mdc-radiogroup` | Labelled wrapper that groups radios and carries the group label, `name`, and validation. |
+| `mdc-radiogroup` | Labeled wrapper that groups radios and carries the group label, `name`, and validation. |
 | `mdc-staticradio` | Decorative, non-interactive radio for read-only display. |
 | `mdc-checkbox` | Select any number of options instead of exactly one. |
 | `mdc-cardradio` | Radio rendered as a larger card surface. |
