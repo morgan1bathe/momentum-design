@@ -9,10 +9,6 @@ component: dialog
 
 A dialog is a modal surface that interrupts the user to display information, confirm a destructive action, or collect input. It blocks interaction with the rest of the application until it is closed.
 
-The dialog is a controlled component: the consumer drives visibility through the `visible` property and listens to the `close` event to react to the user dismissing the dialog. Visibility is not toggled internally.
-
-Five sizes are available: `small` (432px), `medium` (656px), `large` (992px), `xlarge` (90% viewport), and `fullscreen` (100% viewport). Two visual variants are available: `default` and `promotional`. When the surrounding `mdc-responsivesettingsprovider` has `forceFullscreenDialog` enabled, every dialog is rendered as `fullscreen` regardless of its `size`.
-
 ### When to use
 
 - Use `mdc-dialog` to confirm a destructive action (e.g. deleting an item) before it happens.
