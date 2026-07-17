@@ -48,7 +48,7 @@ With chip filters slotted in front of the input text:
 
 ### Content guidance
 
-- Give the field a visible label — either the default leading magnifying-glass icon or a text label. A leading icon alone satisfies the labelling requirement; use a text label when several search fields share a page.
+- Give the field a visible label — either the default leading magnifying-glass icon or a text label. A leading icon alone satisfies the labeling requirement; use a text label when several search fields share a page.
 - Keep the default search leading icon unchanged so the field is recognizable as search.
 - Use `placeholder` only for hints; it disappears once the user types.
 - The clear button is required for a search field — provide `clearAriaLabel` (for example "Clear search").
@@ -60,7 +60,7 @@ With chip filters slotted in front of the input text:
 | `control-type="uncontrolled"` (default) | Whether the component removes filter chips from the DOM itself (`uncontrolled`) or leaves removal to you (`controlled`). Pick `controlled` when chip rendering is state-driven. |
 | `placeholder` | Hint shown while the field is empty. |
 | `clearAriaLabel` | Accessible name for the required clear button. |
-| `label` / `data-aria-label` | Accessible name. A leading icon alone satisfies labelling, but the field still needs an announceable name. |
+| `label` / `data-aria-label` | Accessible name. A leading icon alone satisfies labeling, but the field still needs an announceable name. |
 | `toggletip-text` / `info-icon-aria-label` | Optional info toggletip beside the label. |
 | `readonly` / `disabled` / `soft-disabled` | Interaction states inherited from `mdc-input`. |
 
@@ -94,7 +94,7 @@ The searchfield uses a native `<input type="search">` so screen readers announce
 
 ### Implementation requirements
 
-#### Labelling
+#### Labeling
 
 - Provide a `label` (or `data-aria-label`) so the input has an accessible name. Without one, the search field has no announceable name.
 - Provide a `clearAriaLabel` so the trailing clear button is announced (for example "Clear search").
