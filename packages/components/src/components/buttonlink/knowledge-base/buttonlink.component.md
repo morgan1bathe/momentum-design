@@ -7,7 +7,7 @@ component: buttonlink
 
 ## Overview
 
-The buttonlink renders a navigational anchor (`<a>`) styled as a button. It is the right choice when the visual treatment should match a button but the action is navigation — the underlying element carries link semantics, so right-click, middle-click, and "open in new tab" all work as users expect.
+`mdc-buttonlink` provides a navigational anchor (`<a>`) styled as a button. It exists for cases where an action navigates to a new location but should carry a button's visual weight, while keeping native link semantics intact.
 
 ### When to use
 
@@ -61,8 +61,7 @@ Minimal markup example:
 ### Content guidance
 
 - Use destination-oriented labels (for example "View documentation", "Open release notes") rather than verbs like "Click here".
-- For icon-only buttonlinks, set `data-aria-label` to describe the destination — the icon alone is not announced.
-- When `target="_blank"`, indicate that the link opens in a new tab in the visible label or accessible name, and include `rel="noopener"` (or `noreferrer`) for safety.
+- When `target="_blank"`, indicate that the link opens in a new tab in the visible label or accessible name.
 
 ### Property/Attribute details
 

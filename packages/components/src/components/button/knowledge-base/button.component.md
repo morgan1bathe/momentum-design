@@ -52,7 +52,6 @@ Minimal markup example:
 
 - Keep labels short and action-oriented; prefer a verb or verb phrase ("Save changes", "Send invite") over generic words like "OK" or "Submit".
 - Use sentence case for button labels.
-- For icon-only buttons, always set `aria-label` to describe the action (for example `aria-label="Delete"`); the icon alone is not announced.
 
 ### Property/Attribute details
 

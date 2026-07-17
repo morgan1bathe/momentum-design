@@ -51,7 +51,6 @@ Minimal markup example:
 
 ### Content guidance
 
-- Always supply an accessible name (visible text in the default slot or `aria-label`) — the primitive has no built-in label.
 - Keep the slotted content focused on the button's action; do not nest focusable controls inside it.
 
 ### Property/Attribute details

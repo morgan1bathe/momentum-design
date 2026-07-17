@@ -47,7 +47,7 @@ Minimal markup example:
 
 - Slot only `mdc-button` elements as direct children. Other content is not styled by the group and breaks the segmented appearance.
 - Keep the buttons inside a group conceptually related. If the actions are unrelated, render them as standalone buttons.
-- Mix icon-only and pill buttons sparingly — when mixed, ensure every icon-only button has an `aria-label` so the group remains accessible.
+- Mix icon-only and pill buttons sparingly — a consistent button shape reads more clearly as a set.
 
 ### Property/Attribute details
 
