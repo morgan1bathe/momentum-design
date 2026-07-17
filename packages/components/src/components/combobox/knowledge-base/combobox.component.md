@@ -7,7 +7,7 @@ component: combobox
 
 ## Overview
 
-The combobox is a text-based dropdown control that lets the user type to filter a predefined list of options, then pick one. Typing narrows the visible options based on the configured `filter` strategy; clicking the trigger button or pressing arrow keys opens the dropdown without filtering.
+The combobox is a text-based dropdown control that lets the user type to filter a predefined list of options, then pick one. Typing narrows the visible options based on the configured `filter` strategy.
 
 The component is form-associated and participates in native form submission, validation, and reset.
 
