@@ -102,7 +102,7 @@ Always place `mdc-menuitem` inside an ancestor element with `role="menu"` or `ro
 - Place `mdc-menuitem` inside an `mdc-menubar`, `mdc-menupopover`, or other element with `role="menu"` / `role="menubar"` so the surrounding navigation, focus management, and roving tabindex are applied.
 - For items that open submenus, give the item a unique `id`, set `arrow-position="trailing"`, and create a sibling `mdc-menupopover` whose `triggerid` matches the `id`.
 
-#### Labelling
+#### Labeling
 
 - Always provide an accessible name through `label`, slotted text in `leading-text-primary-label`, or `aria-label` on the host.
 - When the item contains only icons or non-text content, set `aria-label` explicitly.
@@ -115,6 +115,6 @@ Always place `mdc-menuitem` inside an ancestor element with `role="menu"` or `ro
 | `mdc-menuitemradio` | Single-select menu item for mutually exclusive options within a group. |
 | `mdc-menupopover` | Floating menu surface that hosts menu items and manages focus and keyboard navigation. |
 | `mdc-menubar` | Persistent menu container that hosts menu items and their submenus. |
-| `mdc-menusection` | Labelled grouping of menu items within a menu or menubar. |
+| `mdc-menusection` | Labeled grouping of menu items within a menu or menubar. |
 | `mdc-option` | Selectable row for value-picking lists (`mdc-select`/`mdc-listbox`), not action menus. |
 | `mdc-listitem` | Generic list row for non-menu contexts. |

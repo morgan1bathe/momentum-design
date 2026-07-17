@@ -98,7 +98,7 @@ All members of the same radio group must share the same `name` value and live in
 - Group related radios by sharing the same `name` and keeping them inside the same `mdc-menusection` or `mdc-menupopover`.
 - Do not nest focusable elements inside the item.
 
-#### Labelling
+#### Labeling
 
 - Provide an accessible name via `label`, slotted text in `leading-text-primary-label`, or `aria-label`.
 - When grouping radios inside `mdc-menusection`, give the section a `header-text` so the group has a visible heading; the section forwards it to `aria-label` automatically.
@@ -109,6 +109,6 @@ All members of the same radio group must share the same `name` value and live in
 |---|---|
 | `mdc-menuitemcheckbox` | Multi-select counterpart for independent on/off items in a menu. |
 | `mdc-menuitem` | Plain action item, or a single-select item with a checkmark indicator. |
-| `mdc-menusection` | Labelled grouping that scopes a radio group's single-selection rule. |
+| `mdc-menusection` | Labeled grouping that scopes a radio group's single-selection rule. |
 | `mdc-menupopover` | Floating menu surface that hosts radio items and manages focus. |
 | `mdc-radio` / `mdc-radiogroup` | Standalone form radios for use outside menus. |
